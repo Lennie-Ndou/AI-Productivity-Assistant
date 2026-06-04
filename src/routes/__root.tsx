@@ -82,11 +82,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "WorkPilot AI — Workplace Productivity Assistant" },
       { name: "description", content: "AI-powered assistant for emails, meeting notes, task planning, research, and more." },
-      { property: "og:title", content: "WorkPilot AI" },
-      { property: "og:description", content: "AI assistant that automates daily work tasks." },
+      { property: "og:title", content: "WorkPilot AI — Workplace Productivity Assistant" },
+      { property: "og:description", content: "AI-powered assistant for emails, meeting notes, task planning, research, and more." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "WorkPilot AI — Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "AI-powered assistant for emails, meeting notes, task planning, research, and more." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0ae7b01a-bac0-409d-a4a4-7b8ec09a0f11/id-preview-142d2a95--54ed860c-b370-4779-909c-78b0eb8913b3.lovable.app-1780563637204.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0ae7b01a-bac0-409d-a4a4-7b8ec09a0f11/id-preview-142d2a95--54ed860c-b370-4779-909c-78b0eb8913b3.lovable.app-1780563637204.png" },
     ],
     links: [
       {
